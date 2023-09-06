@@ -1,0 +1,46 @@
+body{
+    display:flex;
+    background-image:url('cenario/bossf.png') ;
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+
+
+.Ganhou{
+
+    font-size: 100px;
+    color: red;
+    font-family: 'Black Ops One', cursive;
+    margin-left: 430px;
+    
+
+}
+
+.texto{
+    display: flex;
+    font-size: 30px;
+    font-family: 'Black Ops One', cursive;
+    border-bottom: solid black 2px 2px 2px 2px;
+    background-color: white;
+    width: 1265px;
+    height: 260px;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+}

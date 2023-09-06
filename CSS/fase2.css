@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    overflow: hidden;
+    background-size: 1300px;
+    background-image: url(./cenario/boss1.gif);
+    background-repeat: no-repeat;
+  } 
+
+.personagem {
+    width: 80px;
+    height: 150px;
+    position: absolute;
+    background-size: 80px;
+    background-image: url(./personagens/petersonfrenteA.png);
+    background-repeat: no-repeat;
+    border-color: black 1px;
+    bottom: 0;
+    left: 50px;
+    transform: translateX(-50%);
+    
+  }
+  .jump-animation {
+    animation: jumpAnimation 0.5s ease-in-out; /* Usar a função de temporização ease-in-out */
+  }
+  
+  @keyframes jumpAnimation {
+    from {
+      bottom: 0;
+    }
+    50% {
+      bottom: 150px; /* Altura intermediária do pulo */
+    }
+    
+    to {
+      bottom: 15px;
+    }
+  }
+  
+  .tiro {
+    
+    background-image: url(./inimigos/tiro.gif);
+    background-size: cover;
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    
+  }
+  
+  
+   
+.inimigo {
+   width: 350px;
+   height: 200px;
+  position: absolute;
+   top: 400px; /* Defina a posição vertical fixa desejada */
+   left: 50%; /* Centralizar horizontalmente */
+  transform: translateX(-50%);
+  background-image: url(./inimigos/inimigoFrenteA-unscreen.gif);
+  background-size: 300px;
+   background-repeat: no-repeat;
+ }
+
+ .inimigoB{
+    width: 250px;
+    height: 160px;
+   position: absolute;
+    top: 410px; /* Defina a posição vertical fixa desejada */
+    left: 50%; /* Centralizar horizontalmente */
+   transform: translateX(-50%);
+   background-image: url(./inimigos/inimigoFrenteA-unscreen.gif);
+   background-size: 120px;
+    background-repeat: no-repeat;
+  }
+ 
+  
+  .lives {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-family: Arial, sans-serif;
+    
+  }
+
+  .tiro-esquerda {
+    background-image: url(./tiros/gifmonstro-unscreen.gif);
+  }
